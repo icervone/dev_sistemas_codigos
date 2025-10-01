@@ -10,7 +10,7 @@ with engine.connect() as conn:
                         id INTEGER PRIMARY KEY AUTOINCREMENT,
                         nome VARCHAR(50) NOT NULL,
                         idade INTEGER NOT NULL,
-                        email VARCHAR(50) NOT NULL
+                        email VARCHAR(50)git NOT NULL
                       )
                       """))
     conn.commit()
